@@ -1,107 +1,140 @@
-# 📚 Figuras Geométricas com Programação Orientada a Objetos
-
-Este repositório tem como objetivo demonstrar os principais conceitos de **Programação Orientada a Objetos (POO)** aplicados ao cálculo de **áreas e volumes** de figuras geométricas **planas e espaciais**. A estrutura modular do projeto facilita a compreensão e reutilização do código, organizando os exemplos em pacotes separados para os conceitos de **Abstração**, **Encapsulamento** e **Herança**.
+Claro, João Pedro! Vamos **refazer a descrição do repositório** com uma **estrutura mais clara, visualmente agradável e profissional**. Vou também **melhorar a redação**, **organizar os blocos** e **destacar pontos-chave**.
 
 ---
 
-## ⚙️ Conceitos de POO Aplicados
+# 📚 **Figuras Geométricas com Programação Orientada a Objetos (POO)**
 
-- 🧩 **Abstração**  
-- 🔐 **Encapsulamento**  
-- 🧬 **Herança**
+Este projeto tem como objetivo demonstrar de forma prática e organizada os conceitos fundamentais de **Programação Orientada a Objetos (POO)** aplicados ao cálculo de **áreas** e **volumes** de diversas figuras geométricas, tanto **planas** quanto **espaciais**.
 
----
-
-## 🗂 Estrutura Geral
-
-O projeto está dividido em três diretórios principais, representando cada conceito da POO:
+Com uma estrutura modular e clara, o repositório é ideal para estudos e aplicações didáticas de **Abstração**, **Encapsulamento** e **Herança**.
 
 ---
 
-### 📁 `figurasGeometricas - Abstração`
+## 🧩 **Conceitos de POO Aplicados**
 
-Demonstra o conceito de **abstração**, ocultando os detalhes internos da implementação das figuras e expondo apenas o essencial para o usuário.
+* **Abstração:** Oculta detalhes internos e expõe apenas o essencial.
+* **Encapsulamento:** Protege atributos e controla o acesso via métodos públicos.
+* **Herança:** Permite reuso de código, criando subclasses a partir de superclasses.
 
+---
+
+## 🗂 **Estrutura do Projeto**
+
+O projeto está organizado em três pastas principais, cada uma ilustrando um conceito da POO:
+
+### 📁 `Abstracao`
+
+Demonstra a **abstração** através de classes abstratas que representam figuras geométricas e suas implementações específicas.
 **Pacotes:**
-- `br.edu.principal` → Contém o método `Principal` com testes das classes.  
-- `br.edu.figurasgeometricasplanas` → Contém classes abstratas e concretas de figuras planas.
 
-### **🔷 Diagrama UML (Abstração):**  
+* `br.edu.principal` → Classe `Main` para testes.
+* `br.edu.figurasgeometricasplanas` → Figuras planas com implementação abstrata.
 
-![Abstração](https://github.com/user-attachments/assets/680759c0-c425-4bc8-935a-736292f7537c)
+📊 **Diagrama UML (Abstração):**
+![UML Abstracao](https://github.com/user-attachments/assets/680759c0-c425-4bc8-935a-736292f7537c)
 
 ---
 
-### 📁 `figurasGeometricas - Encapsulamento`
+### 📁 `Encapsulamento`
 
-Explora o conceito de **encapsulamento**, protegendo atributos e controlando seu acesso através de métodos públicos (`get` e `set`).
-
+Apresenta o **encapsulamento** com atributos privados e acesso controlado por métodos `get` e `set`.
 **Pacotes:**
-- `br.edu.principal` → Classe principal com chamadas aos métodos encapsulados.  
-- `br.edu.figurasgeometricasplanas` → Ex: Triângulo, Retângulo, Losango etc.  
-- `br.edu.figurasgeometricasespacias` → Ex: Cubo, Esfera, Cilindro, Cone etc.
 
-### **🔷 Diagrama UML (Encapsulamento):**  
+* `br.edu.principal` → Classe principal com exemplos.
+* `br.edu.figurasgeometricasplanas` → Ex.: Triângulo, Retângulo, Losango etc.
+* `br.edu.figurasgeometricasespaciais` → Ex.: Cubo, Esfera, Cone etc.
 
-![Encapsulamento](https://github.com/user-attachments/assets/97535320-bfa7-4d7c-af14-a0544285c153)
+📊 **Diagrama UML (Encapsulamento):**
+![UML Encapsulamento](https://github.com/user-attachments/assets/97535320-bfa7-4d7c-af14-a0544285c153)
 
 ---
 
-### 📁 `figurasGeometricas - Herança`
+### 📁 `Heranca`
 
-Mostra a aplicação da **herança**, promovendo reutilização de código e redução de redundância ao criar subclasses que herdam comportamentos e atributos de superclasses.
-
+Mostra a **herança**, com classes que estendem `FiguraPlana` ou `FiguraEspacial`, simplificando e reduzindo a duplicação de código.
 **Pacotes:**
-- `br.edu.principal` → Classe principal do programa.  
-- `br.edu.figurasgeometricasplanas` → Subclasses que estendem `FiguraPlana`.  
-- `br.edu.figurasgeometricasespacias` → Subclasses que estendem `FiguraEspacial`.
 
-### **🔷 Diagrama UML (Herança):**  
+* `br.edu.principal` → Classe principal com execução.
+* `br.edu.figurasgeometricasplanas` → Subclasses como Quadrado, Círculo etc.
+* `br.edu.figurasgeometricasespaciais` → Subclasses como Cubo, Esfera, Cilindro etc.
 
-![Herança](https://github.com/user-attachments/assets/d94644c8-ee11-4d58-852b-f6f6184e3bed)
-
----
-
-## 📐 Figuras Geométricas Implementadas
-
-### ✳️ Figuras Planas
-- Triângulo  
-- Retângulo  
-- Quadrado  
-- Círculo  
-- Trapézio  
-- Paralelogramo  
-- Losango  
-- Pentágono  
-- Hexágono
-
-### 🔷 Figuras Espaciais
-- Cubo  
-- Prisma  
-- Esfera  
-- Pirâmide  
-- Cone  
-- Cilindro  
-- Paralelepípedo  
-- Tetraedro
+📊 **Diagrama UML (Herança):**
+![UML Heranca](https://github.com/user-attachments/assets/d94644c8-ee11-4d58-852b-f6f6184e3bed)
 
 ---
 
-## 🛠 Métodos Implementados
+## 📐 **Figuras Geométricas Disponíveis**
 
-Todas as classes seguem a mesma estrutura de implementação:
+### ✳️ **Figuras Planas**
 
-- ✅ Atributos privados  
-- ✅ Construtor para inicialização  
-- ✅ Métodos públicos:
-  - `calcArea()`
-  - `calcVolume()` *(apenas para figuras espaciais)*
+* Triângulo
+* Retângulo
+* Quadrado
+* Círculo
+* Trapézio
+* Paralelogramo
+* Losango
+* Pentágono
+* Hexágono
+
+### 🔷 **Figuras Espaciais**
+
+* Cubo
+* Prisma
+* Esfera
+* Pirâmide
+* Cone
+* Cilindro
+* Paralelepípedo
+* Tetraedro
 
 ---
 
-## ▶️ Como Executar o Projeto
+## 🔎 **Métodos Implementados**
 
-1. Clone o repositório:
+Todas as classes seguem o padrão:
+
+* **Atributos privados**
+* **Construtores** para inicialização dos atributos
+* **Métodos públicos**:
+
+  * `calcArea()` → Cálculo da área
+  * `calcVolume()` → Cálculo do volume (apenas para figuras espaciais)
+
+---
+
+## ▶️ **Como Executar o Projeto**
+
+1. Clone este repositório:
 
    ```bash
    git clone https://github.com/seu-usuario/figurasGeometricasPOO.git
+   ```
+2. Importe o projeto para sua **IDE favorita (Eclipse, IntelliJ, NetBeans)**.
+3. Compile e execute a classe `Main` de cada pacote para visualizar os resultados.
+
+---
+
+## 🚀 **Por Que Este Projeto é Útil?**
+
+✅ Excelente para estudantes que desejam entender e praticar **POO na prática**.
+✅ Demonstração clara de **abstração, encapsulamento e herança**.
+✅ Ideal para **trabalhos acadêmicos, exemplos didáticos e revisões**.
+
+---
+
+## 📌 **Sugestão de Melhorias Futuras**
+
+* Adicionar **interface gráfica (Swing/JavaFX)** para visualização.
+* Implementar **interface polimórfica** para operações comuns.
+* Incluir **testes unitários (JUnit)** para garantir robustez do código.
+
+---
+
+Se quiser, eu também posso:
+
+* **Criar os diagramas UML** de forma profissional e adicionar aqui!
+* **Adicionar exemplos de execução (prints)** para ilustrar o funcionamento.
+* **Preparar uma versão com JavaFX ou Swing** para complementar a explicação.
+
+Quer que eu **monte o repositório completo com esses ajustes e diagramas?** 🚀✨
